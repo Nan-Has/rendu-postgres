@@ -1,0 +1,478 @@
+SELECT clients.id_client, clients.name_client, clients.tel, produit.name_produit, produit.price, fournisseur.name_fournisseur, fournisseur.tel 
+FROM produit, fournisseur, clients WHERE produit.id_fournisseur = fournisseur.id_fournisseur AND clients.id_produit = produit.id_produit 
+    ORDER BY produit, fournisseur;
+
+
+ id_client | name_client  |   tel    |                     name_produit                      |   price    |  name_fournisseur   |   tel   
+-----------+--------------+----------+-------------------------------------------------------+------------+---------------------+---------
+       122 | Bryan        |  1395943 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       223 | Hyacinthe    | 22921914 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       389 | Tanitansy    | 21187310 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       140 | Penny        | 13832644 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       139 | Benedikta    | 19723745 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       114 | Wyn          | 37972172 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        65 | Raquela      | 21358423 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       303 | Gamaliel     | 13908609 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       362 | Carine       | 20615697 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       309 | Bryce        | 30017672 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       102 | Abigale      | 30715830 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       313 | Clarabelle   | 20171139 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        70 | Toddy        | 27431567 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       267 | Rebecca      | 14687596 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       249 | Rodge        | 30247708 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        21 | Patrice      |  7074065 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       208 | Don          | 20273524 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       128 | Sybila       | 35107900 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       184 | Allayne      |  6495964 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       258 | Caralie      | 24835787 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       384 | Nolan        | 18180454 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       386 | Chev         | 45099670 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       352 | Evy          | 11022623 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        80 | Willamina    | 29818172 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       460 | Wildon       | 23094963 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       160 | Basilio      | 34907415 | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       407 | Chaim        | 35705794 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       360 | Leonelle     | 33745080 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       374 | Nye          | 44781593 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       388 | Kessiah      | 40765001 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       487 | Daveen       | 38167119 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       229 | Marcie       |  2821647 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       150 | Madelene     | 40188632 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       496 | Zedekiah     | 27255346 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       137 | Simeon       | 44132071 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        23 | Branden      | 44964112 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       254 | Lenci        | 37997479 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       285 | Seline       | 43081495 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       286 | Norine       | 20290897 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       294 | Casper       | 27143268 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       296 | Shurlock     |  1928693 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       113 | Cori         | 13341790 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       106 | La verne     | 19753429 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       316 | Sharon       | 39310933 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        89 | Tootsie      |  6405006 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       255 | Nicolea      | 17366660 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       423 | Aloysia      | 45113909 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        88 | Doretta      |  8473021 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       342 | Tim          | 27055040 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       348 | Madelene     | 11692645 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       359 | Annecorinne  | 49496589 | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        43 | Keslie       | 44835882 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       194 | Jonis        | 38722380 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       191 | Nil          | 38679247 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+         1 | Abram        | 32276968 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       470 | Merwin       | 27571418 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       465 | Sibley       | 30783991 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        24 | Linnea       | 49384154 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        28 | Margery      |  3737554 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       429 | Gigi         | 39504144 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       422 | Berti        | 32803925 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       419 | Vanessa      | 33366778 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        63 | Hildy        | 26893663 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       358 | Lyssa        | 49347285 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       479 | Bernardine   | 23246958 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        98 | Sarene       | 28144588 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       108 | Arri         | 37344174 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       270 | Cleve        |  3314868 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       151 | Alexandre    | 27842321 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       171 | Maxie        | 43689850 | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       412 | Shep         | 11840727 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       203 | Maisey       | 44492898 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       228 | Kingston     | 35006474 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       210 | Arlee        | 49593624 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       432 | Adamo        | 39126919 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+        67 | Standford    | 38833123 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       268 | Tyrus        |  8408225 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       452 | Stacee       | 42135341 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       473 | Claudell     | 30699041 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       306 | Pauly        | 20130439 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       451 | Ode          | 15715566 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       494 | Vere         | 41513174 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       354 | Teador       |  5577794 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       433 | Cherye       | 33010296 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       337 | Doralyn      | 19913903 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       275 | Sloan        | 10864728 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       440 | Anabal       | 11090498 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+        81 | Judye        | 35456210 | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+       272 | Kelsy        | 26799871 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       260 | Jobey        | 43611224 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       193 | Vassili      | 31166527 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       245 | Warren       | 18070813 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       149 | Ariana       | 24408735 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       237 | Antone       | 14304568 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       236 | Mattie       |  6084268 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       233 | Bradan       | 30258234 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       100 | Terrell      | 19503787 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       162 | Jaquith      | 12641712 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       176 | Augustus     | 46329429 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       216 | Nikos        |  5272368 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       214 | Trudy        | 17198102 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       213 | Rois         | 12749191 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       369 | Gabriell     | 25065134 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       115 | Patrice      |  7067265 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       365 | Kelsi        | 36412729 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+        92 | Izaak        | 33004216 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       125 | Trista       |  7757762 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       462 | Tobit        | 46564450 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       466 | Ivie         | 42664871 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       356 | Stewart      | 31370242 | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       299 | Ashly        | 41409111 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       112 | Dew          | 14208758 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       441 | Rosette      | 10270223 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        32 | Milena       | 13404070 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        50 | Marijo       | 22869307 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       418 | Holt         | 48010991 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       401 | Stanton      | 24035342 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       173 | Dew          | 21175698 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        53 | Goldy        | 15708027 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       201 | Nathanil     | 25833912 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       242 | Alexi        | 12585918 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        14 | Catie        |  8859414 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       133 | Elsinore     | 38812345 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       430 | Inger        | 42279647 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       324 | Konstantin   |   755261 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       197 | Phineas      | 47615634 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       274 | Danny        | 16063428 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       468 | Ranique      | 48369067 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       261 | Rayna        | 11097341 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       481 | Saloma       | 35986170 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       226 | Etti         |  2831012 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        35 | Hortensia    | 40942060 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       375 | Corey        | 10628733 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        10 | Dugald       | 23793987 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       271 | Stevie       | 49294217 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       154 | Garry        | 37517526 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       347 | Salomo       | 22985676 | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       265 | Ellie        | 40578553 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       364 | Genny        | 24694250 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       403 | Freddy       | 29030466 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       415 | Jourdain     | 46517085 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        44 | Rupert       | 16313403 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       169 | Morgana      | 21336067 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        91 | Margi        | 18041140 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       341 | Barbabas     | 46671174 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       331 | Donny        | 20071136 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       318 | Patrizio     | 46352049 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       500 | Maia         | 44130541 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        37 | Bari         | 14676636 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       310 | Venita       | 15782870 | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+
+
+
+SELECT clients.id_client, clients.name_client, clients.adresse, produit.name_produit, produit.price
+FROM clients
+INNER JOIN produit ON clients.id_produit = produit.id_produit;
+
+ id_client | name_client  |           adresse           |                     name_produit                      |   price    
+-----------+--------------+-----------------------------+-------------------------------------------------------+------------
+         1 | Abram        | 1596 Meadow Ridge Plaza     | Simvastatin                                           | 5 686,00 €
+         2 | Montague     | 08494 Roxbury Trail         | Senna Laxative                                        | 7 064,00 €
+         3 | Hugh         | 159 Katie Avenue            | Glyburide                                             | 6 012,00 €
+         4 | Orin         | 0380 Hoard Avenue           | Perphenazine                                          | 6 497,00 €
+         5 | Noll         | 6762 Jenna Road             | Senna Laxative                                        | 7 064,00 €
+         6 | Edeline      | 4689 Northfield Trail       | Perphenazine                                          | 6 497,00 €
+         7 | Theressa     | 6071 Golf Parkway           | Depakote                                              | 5 008,00 €
+         8 | Sonia        | 94 Reindahl Terrace         | Terazosin                                             | 9 026,00 €
+         9 | Valida       | 79 Algoma Court             | MAX                                                   | 4 107,00 €
+        10 | Dugald       | 13 Old Gate Road            | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        11 | Cyrille      | 45989 Schurz Court          | Primula Onopordon Stress Relief                       | 7 875,00 €
+        12 | Paxon        | 921 Caliangt Street         | Artificial Tears                                      | 7 905,00 €
+        13 | Perrine      | 73139 Beilfuss Terrace      | Bumetanide                                            | 7 090,00 €
+        14 | Catie        | 33 Merry Way                | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        15 | Roarke       | 73 Melby Park               | Remodulin                                             | 1 734,00 €
+        16 | Briano       | 7948 Lakeland Hill          | Terazosin                                             | 9 026,00 €
+        17 | Broddy       | 071 Messerschmidt Point     | Artificial Tears                                      | 7 905,00 €
+        18 | Alard        | 7 Mandrake Terrace          | Doxepin Hydrochloride                                 |   425,00 €
+        19 | Eb           | 0 Colorado Drive            | Senna Laxative                                        | 7 064,00 €
+        20 | William      | 5145 Morning Point          | Childrens Pepto                                       | 6 855,00 €
+        21 | Patrice      | 38 6th Point                | Hydralazine Hydrochloride                             | 3 161,00 €
+        22 | Fanny        | 644 Ramsey Alley            | Depakote                                              | 5 008,00 €
+        23 | Branden      | 85877 Carberry Trail        | Ampicillin                                            | 7 003,00 €
+        24 | Linnea       | 984 Buell Point             | Simvastatin                                           | 5 686,00 €
+        25 | Vilhelmina   | 2 Carberry Trail            | Senna Laxative                                        | 7 064,00 €
+        26 | Mervin       | 245 Jackson Place           | MAX                                                   | 4 107,00 €
+        27 | Albertina    | 23 Warbler Street           | Bumetanide                                            | 7 090,00 €
+        28 | Margery      | 3699 Mosinee Plaza          | Simvastatin                                           | 5 686,00 €
+        29 | Amalia       | 4129 Waxwing Court          | Depakote                                              | 5 008,00 €
+        30 | Orion        | 291 Badeau Crossing         | Senna Laxative                                        | 7 064,00 €
+        31 | Jan          | 4 Scott Alley               | Childrens Pepto                                       | 6 855,00 €
+        32 | Milena       | 4073 Raven Road             | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        33 | Al           | 14252 Corben Pass           | Senna Laxative                                        | 7 064,00 €
+        34 | Hilly        | 32656 Duke Plaza            | Terazosin                                             | 9 026,00 €
+        35 | Hortensia    | 816 Village Green Point     | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        36 | Gretna       | 51683 Nelson Center         | Childrens Pepto                                       | 6 855,00 €
+        37 | Bari         | 2 Cambridge Trail           | MAX                                                   | 4 107,00 €
+        38 | Joe          | 358 Pine View Road          | Primula Onopordon Stress Relief                       | 7 875,00 €
+        39 | Jerrome      | 0021 Dapin Hill             | Perphenazine                                          | 6 497,00 €
+        40 | Gwenette     | 70 Dorton Court             | Artificial Tears                                      | 7 905,00 €
+        41 | Romeo        | 73 Toban Hill               | Doxepin Hydrochloride                                 |   425,00 €
+        42 | Danya        | 99217 Sunnyside Crossing    | Doxepin Hydrochloride                                 |   425,00 €
+        43 | Keslie       | 18 Homewood Hill            | Simvastatin                                           | 5 686,00 €
+        44 | Rupert       | 74 Walton Drive             | MAX                                                   | 4 107,00 €
+        45 | Magnum       | 1832 Northridge Center      | Terazosin                                             | 9 026,00 €
+        46 | Hermie       | 769 Union Terrace           | Remodulin                                             | 1 734,00 €
+        47 | Skye         | 069 Declaration Way         | Glyburide                                             | 6 012,00 €
+        48 | Katerina     | 821 Walton Lane             | Perphenazine                                          | 6 497,00 €
+        49 | Jilli        | 933 Oakridge Hill           | Bumetanide                                            | 7 090,00 €
+        50 | Marijo       | 808 Butternut Trail         | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        51 | Hynda        | 1191 Scoville Point         | Bumetanide                                            | 7 090,00 €
+        52 | Ebonee       | 54 Lake View Junction       | Perphenazine                                          | 6 497,00 €
+        53 | Goldy        | 42641 Hovde Parkway         | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+        54 | Rance        | 8 New Castle Terrace        | Doxepin Hydrochloride                                 |   425,00 €
+        55 | Morgun       | 82 Dapin Court              | Glyburide                                             | 6 012,00 €
+        56 | Page         | 2123 Morning Street         | Perphenazine                                          | 6 497,00 €
+        57 | Felipa       | 4551 Manley Point           | Perphenazine                                          | 6 497,00 €
+        58 | Elvina       | 4353 Judy Point             | MAX                                                   | 4 107,00 €
+        59 | Anthony      | 93940 Fuller Street         | Doxepin Hydrochloride                                 |   425,00 €
+        60 | Theadora     | 99 Kingsford Way            | Artificial Tears                                      | 7 905,00 €
+        61 | Michele      | 381 Hudson Way              | Artificial Tears                                      | 7 905,00 €
+        62 | Dulcea       | 8807 Brown Pass             | Diltiazem Hydrochloride                               | 3 360,00 €
+        63 | Hildy        | 5 Hovde Junction            | Simvastatin                                           | 5 686,00 €
+        64 | Judy         | 9479 Summerview Parkway     | Primula Onopordon Stress Relief                       | 7 875,00 €
+        65 | Raquela      | 1511 Harbort Drive          | Hydralazine Hydrochloride                             | 3 161,00 €
+        66 | Shelly       | 1112 Westerfield Lane       | Perphenazine                                          | 6 497,00 €
+        67 | Standford    | 495 Fair Oaks Drive         | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 €
+        68 | Caryn        | 53 Marquette Way            | Perphenazine                                          | 6 497,00 €
+        69 | Gerri        | 28 Farwell Terrace          | Remodulin                                             | 1 734,00 €
+        70 | Toddy        | 19006 Warrior Drive         | Hydralazine Hydrochloride                             | 3 161,00 €
+        71 | Zachery      | 05240 Hanover Court         | Primula Onopordon Stress Relief                       | 7 875,00 €
+        72 | Dede         | 48 Blaine Park              | Diltiazem Hydrochloride                               | 3 360,00 €
+        73 | Correy       | 2858 Farwell Circle         | Perphenazine                                          | 6 497,00 €
+        74 | Duffy        | 3 Clarendon Avenue          | Childrens Pepto                                       | 6 855,00 €
+        75 | Forrester    | 1 Corben Trail              | Childrens Pepto                                       | 6 855,00 €
+        76 | Halli        | 213 Killdeer Point          | Depakote                                              | 5 008,00 €
+        77 | Alfy         | 88 Pawling Point            | CANDIDA YEAST RELIEF                                  | 2 344,00 €
+        78 | Lovell       | 95768 Porter Street         | Depakote                                              | 5 008,00 €
+        79 | Garnette     | 37 Warner Court             | Terazosin                                             | 9 026,00 €
+        80 | Willamina    | 37 Oak Valley Way           | Hydralazine Hydrochloride                             | 3 161,00 €
+        81 | Judye        | 92 Schurz Court             | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 €
+        82 | Delia        | 43066 8th Park              | Artificial Tears                                      | 7 905,00 €
+        83 | Shela        | 95 Glacier Hill Pass        | Remodulin                                             | 1 734,00 €
+        84 | Fifine       | 5 Kings Drive               | Depakote                                              | 5 008,00 €
+        85 | Chloris      | 433 Arrowood Lane           | Glyburide                                             | 6 012,00 €
+        86 | Tarra        | 88 2nd Way                  | CANDIDA YEAST RELIEF                                  | 2 344,00 €
+        87 | Sammie       | 4 Randy Parkway             | Glyburide                                             | 6 012,00 €
+        88 | Doretta      | 42345 Mockingbird Lane      | Ampicillin                                            | 7 003,00 €
+        89 | Tootsie      | 35 Ridge Oak Point          | Ampicillin                                            | 7 003,00 €
+        90 | Quinlan      | 21320 Darwin Plaza          | Artificial Tears                                      | 7 905,00 €
+        91 | Margi        | 588 Vidon Junction          | MAX                                                   | 4 107,00 €
+        92 | Izaak        | 8811 Surrey Road            | Oxacillin                                             | 6 889,00 €
+        93 | Abraham      | 3 Hansons Circle            | Childrens Pepto                                       | 6 855,00 €
+        94 | Jobye        | 4 Sachs Trail               | Remodulin                                             | 1 734,00 €
+        95 | Kariotta     | 6767 Summer Ridge Junction  | Diltiazem Hydrochloride                               | 3 360,00 €
+        96 | Karrah       | 3 Arkansas Alley            | Perphenazine                                          | 6 497,00 €
+        97 | Marieann     | 02 Little Fleur Center      | Glyburide                                             | 6 012,00 €
+        98 | Sarene       | 73132 Mallard Lane          | Simvastatin                                           | 5 686,00 €
+        99 | Nanette      | 3737 Gerald Court           | Doxepin Hydrochloride                                 |   425,00 €
+       100 | Terrell      | 708 Montana Way             | Oxacillin                                             | 6 889,00 €
+       101 | Heather      | 87 Waubesa Point            | Remodulin                                             | 1 734,00 €
+       102 | Abigale      | 6 Cherokee Park             | Hydralazine Hydrochloride                             | 3 161,00 €
+       103 | Madelle      | 53 Maple Wood Center        | Diltiazem Hydrochloride                               | 3 360,00 €
+       104 | Aeriel       | 0445 Rockefeller Street     | Childrens Pepto                                       | 6 855,00 €
+       105 | Melinde      | 303 Cody Terrace            | Depakote                                              | 5 008,00 €
+       106 | La verne     | 8621 Dakota Way             | Ampicillin                                            | 7 003,00 €
+       107 | Shandee      | 0 Graedel Alley             | Terazosin                                             | 9 026,00 €
+       108 | Arri         | 6 Onsgard Road              | Simvastatin                                           | 5 686,00 €
+       109 | Zsa zsa      | 478 Ridgeway Center         | Primula Onopordon Stress Relief                       | 7 875,00 €
+       110 | Harbert      | 92924 Mayfield Drive        | Primula Onopordon Stress Relief                       | 7 875,00 €
+       111 | Jennine      | 971 Northport Crossing      | Terazosin                                             | 9 026,00 €
+       112 | Dew          | 66 Brickson Park Crossing   | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+       113 | Cori         | 88940 Mcguire Center        | Ampicillin                                            | 7 003,00 €
+       114 | Wyn          | 528 Blue Bill Park Place    | Hydralazine Hydrochloride                             | 3 161,00 €
+       115 | Patrice      | 54198 Arapahoe Park         | Oxacillin                                             | 6 889,00 €
+       116 | Walt         | 8 Hermina Road              | Primula Onopordon Stress Relief                       | 7 875,00 €
+       117 | Brandtr      | 951 Almo Parkway            | MAX                                                   | 4 107,00 €
+       118 | Shay         | 5865 Pawling Center         | Diltiazem Hydrochloride                               | 3 360,00 €
+       119 | Crosby       | 416 Stephen Avenue          | Diltiazem Hydrochloride                               | 3 360,00 €
+       120 | Ainslie      | 84857 Pearson Court         | Primula Onopordon Stress Relief                       | 7 875,00 €
+       121 | Korie        | 0083 Redwing Trail          | Bumetanide                                            | 7 090,00 €
+       122 | Bryan        | 6291 Victoria Street        | Hydralazine Hydrochloride                             | 3 161,00 €
+       123 | Aubree       | 91168 Farragut Center       | Childrens Pepto                                       | 6 855,00 €
+       124 | Marcela      | 323 Mifflin Hill            | Glyburide                                             | 6 012,00 €
+       125 | Trista       | 57 Ridge Oak Pass           | Oxacillin                                             | 6 889,00 €
+       126 | Nancee       | 5 Grasskamp Drive           | Doxepin Hydrochloride                                 |   425,00 €
+       127 | Lurlene      | 9 Morrow Junction           | Primula Onopordon Stress Relief                       | 7 875,00 €
+       128 | Sybila       | 72 Veith Center             | Hydralazine Hydrochloride                             | 3 161,00 €
+       129 | Agata        | 1595 Hazelcrest Center      | CANDIDA YEAST RELIEF                                  | 2 344,00 €
+       130 | Bronnie      | 89401 Mayer Plaza           | Primula Onopordon Stress Relief                       | 7 875,00 €
+       131 | Constantin   | 40 Northridge Junction      | Artificial Tears                                      | 7 905,00 €
+       132 | Murial       | 30 Longview Crossing        | Doxepin Hydrochloride                                 |   425,00 €
+       133 | Elsinore     | 0864 Meadow Valley Pass     | HOLCUS LANATUS POLLEN                                 | 2 172,00 €
+       134 | Richard      | 631 Acker Street            | Senna Laxative                                        | 7 064,00 €
+       135 | Olive        | 2829 Brentwood Junction     | Terazosin                                             | 9 026,00 €
+       136 | Christel     | 904 Oneill Avenue           | Senna Laxative                                        | 7 064,00 €
+       137 | Simeon       | 8 Washington Street         | Ampicillin                                            | 7 003,00 €
+       138 | Margalit     | 50837 Arizona Point         | Senna Laxative                                        | 7 064,00 €
+       139 | Benedikta    | 51398 Fairview Place        | Hydralazine Hydrochloride                             | 3 161,00 €
+       140 | Penny        | 65507 Rusk Road             | Hydralazine Hydrochloride                             | 3 161,00 €
+       141 | Vladamir     | 019 Reindahl Road           | CANDIDA YEAST RELIEF                                  | 2 344,00 €
+       142 | Nelie        | 108 Lindbergh Drive         | CANDIDA YEAST RELIEF                                  | 2 344,00 €
+       143 | Lilllie      | 97667 Arizona Way           | Childrens Pepto                                       | 6 855,00 €
+       144 | Melodee      | 53506 Forest Center         | Senna Laxative                                        | 7 064,00 €
+       145 | Jade         | 50 Burning Wood Park        | Childrens Pepto                                       | 6 855,00 €
+       146 | Wainwright   | 199 3rd Center              | Glyburide                                             | 6 012,00 €
+       147 | Nissie       | 797 Rigney Hill             | Depakote                                              | 5 008,00 €
+       148 | Blinni       | 6 Florence Crossing         | Doxepin Hydrochloride                                 |   425,00 €
+       149 | Ariana       | 6694 Lyons Street           | Oxacillin                                             | 6 889,00 €
+       150 | Madelene     | 0110 Village Avenue         | Ampicillin                                            | 7 003,00 €
+
+
+SELECT  clients.id_client, clients.name_client, clients.tel, clients.mail, produit.name_produit,
+produit.price, fournisseur.name_fournisseur, fournisseur.tel
+FROM clients
+LEFT JOIN produit 
+ON clients.id_produit = produit.id_produit
+LEFT JOIN fournisseur
+ON produit.id_fournisseur = fournisseur.id_fournisseur;
+
+
+ id_client | name_client  |   tel    |               mail                |                     name_produit                      |   price    |  name_fournisseur   |   tel   
+-----------+--------------+----------+-----------------------------------+-------------------------------------------------------+------------+---------------------+---------
+         1 | Abram        | 32276968 | amcgilroy0@prnewswire.com         | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+         2 | Montague     | 40240130 | mcummins1@narod.ru                | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+         3 | Hugh         |  6007461 | hareles2@freewebs.com             | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+         4 | Orin         | 30382647 | ocrabb3@umich.edu                 | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+         5 | Noll         | 25955141 | nmorcomb4@geocities.com           | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+         6 | Edeline      | 41483037 | esnasel5@mozilla.com              | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+         7 | Theressa     | 19527610 | tofergus6@amazon.com              | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+         8 | Sonia        |  3790269 | skaes7@digg.com                   | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+         9 | Valida       | 32223188 | vburder8@pbs.org                  | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        10 | Dugald       | 23793987 | dolliff9@pagesperso-orange.fr     | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        11 | Cyrille      | 24902800 | corneblowa@google.pl              | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+        12 | Paxon        | 12709759 | psilverstoneb@japanpost.jp        | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        13 | Perrine      | 13050759 | pzealanderc@creativecommons.org   | Bumetanide                                            | 7 090,00 € | Salim Klesl         | 5433417
+        14 | Catie        |  8859414 | cbourchierd@timesonline.co.uk     | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        15 | Roarke       | 38982687 | rskittralle@geocities.jp          | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+        16 | Briano       | 47976515 | bconnowf@bravesites.com           | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+        17 | Broddy       | 37498875 | bscoleg@bbb.org                   | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        18 | Alard        | 20148794 | acommingsh@google.com.hk          | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+        19 | Eb           | 34300663 | esheddi@slashdot.org              | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+        20 | William      | 37482110 | wsemeradj@gizmodo.com             | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        21 | Patrice      |  7074065 | pwalshk@ebay.co.uk                | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        22 | Fanny        |  8298900 | fdraynl@cdc.gov                   | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+        23 | Branden      | 44964112 | bboddm@ucoz.com                   | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        24 | Linnea       | 49384154 | lkezourecn@macromedia.com         | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        25 | Vilhelmina   | 33214967 | vmuffitto@imdb.com                | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+        26 | Mervin       | 31951589 | mjenessp@shutterfly.com           | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        27 | Albertina    |  9141883 | amullardq@netvibes.com            | Bumetanide                                            | 7 090,00 € | Salim Klesl         | 5433417
+        28 | Margery      |  3737554 | mweildr@nyu.edu                   | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        29 | Amalia       |  2888834 | aetridges@hp.com                  | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+        30 | Orion        | 42203656 | omccrumt@umn.edu                  | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+        31 | Jan          | 10385191 | jboddiceu@youtu.be                | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        32 | Milena       | 13404070 | mmeatyardv@hubpages.com           | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        33 | Al           | 19068251 | aburtonshaww@elegantthemes.com    | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+        34 | Hilly        | 12748498 | hrutleyx@dion.ne.jp               | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+        35 | Hortensia    | 40942060 | htrenchy@umn.edu                  | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        36 | Gretna       |  2153262 | gbortolz@stumbleupon.com          | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        37 | Bari         | 14676636 | bchastaing10@smh.com.au           | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        38 | Joe          | 38708734 | jpellamonuten11@indiatimes.com    | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+        39 | Jerrome      | 10130612 | jinglis12@cbslocal.com            | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        40 | Gwenette     | 15288505 | greihill13@answers.com            | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        41 | Romeo        | 16381387 | rbastone14@dyndns.org             | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+        42 | Danya        |  6270982 | dstubbin15@canalblog.com          | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+        43 | Keslie       | 44835882 | kmorillas16@slate.com             | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        44 | Rupert       | 16313403 | rcornish17@squarespace.com        | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        45 | Magnum       | 32910095 | mstables18@ycombinator.com        | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+        46 | Hermie       | 12727106 | hfernan19@google.es               | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+        47 | Skye         |  2690922 | sbarhem1a@washingtonpost.com      | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+        48 | Katerina     | 44374122 | kjosefs1b@bluehost.com            | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        49 | Jilli        | 28177654 | jleon1c@nationalgeographic.com    | Bumetanide                                            | 7 090,00 € | Salim Klesl         | 5433417
+        50 | Marijo       | 22869307 | mnellen1d@dailymotion.com         | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        51 | Hynda        |  7418854 | hcockaday1e@angelfire.com         | Bumetanide                                            | 7 090,00 € | Salim Klesl         | 5433417
+        52 | Ebonee       | 38672617 | echarpling1f@woothemes.com        | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        53 | Goldy        | 15708027 | glawful1g@google.it               | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+        54 | Rance        |  3722323 | rapplewhite1h@redcross.org        | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+        55 | Morgun       | 28303415 | marchell1i@sakura.ne.jp           | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+        56 | Page         | 25864163 | ptwyford1j@home.pl                | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        57 | Felipa       | 23970536 | fgaynsford1k@angelfire.com        | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        58 | Elvina       | 30091872 | efruser1l@dedecms.com             | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        59 | Anthony      | 31952343 | abyway1m@acquirethisname.com      | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+        60 | Theadora     | 48781850 | tskipton1n@freewebs.com           | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        61 | Michele      | 46450998 | meglin1o@berkeley.edu             | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        62 | Dulcea       | 44115918 | dsabban1p@dedecms.com             | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+        63 | Hildy        | 26893663 | hwagstaff1q@about.com             | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        64 | Judy         | 42461634 | jfawson1r@ucla.edu                | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+        65 | Raquela      | 21358423 | rharteley1s@gizmodo.com           | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        66 | Shelly       | 13876213 | syerill1t@ovh.net                 | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        67 | Standford    | 38833123 | sriguard1u@google.es              | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+        68 | Caryn        | 27276995 | cmotten1v@typepad.com             | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        69 | Gerri        | 49398386 | gteenan1w@buzzfeed.com            | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+        70 | Toddy        | 27431567 | tapark1x@w3.org                   | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        71 | Zachery      | 50694567 | zricht1y@home.pl                  | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+        72 | Dede         | 40690631 | dbeaven1z@sbwire.com              | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+        73 | Correy       | 20903991 | cevert20@slideshare.net           | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        74 | Duffy        | 18844977 | dhinchshaw21@mayoclinic.com       | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        75 | Forrester    | 21175276 | fguinery22@studiopress.com        | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        76 | Halli        | 17808146 | hdooley23@mail.ru                 | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+        77 | Alfy         | 19688919 | asloan24@wordpress.org            | CANDIDA YEAST RELIEF                                  | 2 344,00 € | Loraine Maykin      | 5770861
+        78 | Lovell       | 16626091 | ljoselson25@apache.org            | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+        79 | Garnette     |  1718065 | gnaish26@hugedomains.com          | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+        80 | Willamina    | 29818172 | wheadingham27@google.de           | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+        81 | Judye        | 35456210 | jmaben28@liveinternet.ru          | MODLINA PEPTIDE SOOTHING ESSENTIAL HYDROGEL MASK PACK | 7 013,00 € | Dex Gelland         | 4741838
+        82 | Delia        | 32736211 | dgopsell29@redcross.org           | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        83 | Shela        | 18853755 | spenke2a@facebook.com             | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+        84 | Fifine       | 14266088 | fkilmartin2b@hatena.ne.jp         | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+        85 | Chloris      |  5892863 | cdurran2c@wikimedia.org           | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+        86 | Tarra        | 42913501 | tjenken2d@posterous.com           | CANDIDA YEAST RELIEF                                  | 2 344,00 € | Loraine Maykin      | 5770861
+        87 | Sammie       | 41111469 | sdooher2e@yellowpages.com         | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+        88 | Doretta      |  8473021 | dtieraney2f@weibo.com             | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        89 | Tootsie      |  6405006 | tblannin2g@amazon.co.uk           | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+        90 | Quinlan      | 42892194 | qjuzek2h@typepad.com              | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+        91 | Margi        | 18041140 | mjoderli2i@printfriendly.com      | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+        92 | Izaak        | 33004216 | icaunter2j@unesco.org             | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+        93 | Abraham      | 16481343 | agiacomuzzi2k@simplemachines.org  | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+        94 | Jobye        |  1829445 | joxe2l@state.tx.us                | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+        95 | Kariotta     | 50275707 | kdrage2m@theatlantic.com          | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+        96 | Karrah       | 10497349 | kproffer2n@geocities.jp           | Perphenazine                                          | 6 497,00 € | Gary Lambden        | 3398879
+        97 | Marieann     | 44161530 | mcabble2o@comsenz.com             | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+        98 | Sarene       | 28144588 | shegg2p@amazon.com                | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+        99 | Nanette      |  1591201 | nbottomer2q@so-net.ne.jp          | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+       100 | Terrell      | 19503787 | tmcgowran2r@e-recht24.de          | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       101 | Heather      | 29534261 | htottem2s@friendfeed.com          | Remodulin                                             | 1 734,00 € | Amabel Biasotti     | 6976138
+       102 | Abigale      | 30715830 | arushman2t@mapy.cz                | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       103 | Madelle      | 12292865 | mchoat2u@ow.ly                    | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+       104 | Aeriel       |  5491998 | adonaghie2v@gravatar.com          | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+       105 | Melinde      | 33522621 | mfairpool2w@vkontakte.ru          | Depakote                                              | 5 008,00 € | Gareth Boteman      | 4851655
+       106 | La verne     | 19753429 | lthickpenny2x@google.com.au       | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       107 | Shandee      | 12525913 | sgrabbam2y@goo.gl                 | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+       108 | Arri         | 37344174 | aquested2z@imdb.com               | Simvastatin                                           | 5 686,00 € | Dex Gelland         | 4741838
+       109 | Zsa zsa      | 50467162 | zparoni30@tamu.edu                | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       110 | Harbert      |  9846610 | havard31@surveymonkey.com         | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       111 | Jennine      | 12704268 | jcristofori32@discovery.com       | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+       112 | Dew          | 14208758 | dlynthal33@state.gov              | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       113 | Cori         | 13341790 | cvasyukhin34@nbcnews.com          | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       114 | Wyn          | 37972172 | wspillett35@army.mil              | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       115 | Patrice      |  7067265 | pableson36@icq.com                | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       116 | Walt         | 27328805 | wghidoni37@storify.com            | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       117 | Brandtr      | 35367584 | bsedgeworth38@amazon.co.uk        | MAX                                                   | 4 107,00 € | Shantee Redman      | 3641344
+       118 | Shay         | 12549944 | smccaughren39@sitemeter.com       | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+       119 | Crosby       |  3324419 | cnewing3a@virginia.edu            | Diltiazem Hydrochloride                               | 3 360,00 € | Beauregard Ewestace | 8640716
+       120 | Ainslie      | 25147892 | abrammer3b@ocn.ne.jp              | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       121 | Korie        | 33827783 | ksturch3c@tamu.edu                | Bumetanide                                            | 7 090,00 € | Salim Klesl         | 5433417
+       122 | Bryan        |  1395943 | bsharper3d@tripod.com             | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       123 | Aubree       | 19607732 | ashoutt3e@angelfire.com           | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+       124 | Marcela      | 16929774 | mjanicki3f@wikimedia.org          | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+       125 | Trista       |  7757762 | tacutt3g@usa.gov                  | Oxacillin                                             | 6 889,00 € | Loraine Maykin      | 5770861
+       126 | Nancee       | 45088944 | ndangl3h@cisco.com                | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+       127 | Lurlene      |  3177495 | lmeriott3i@mayoclinic.com         | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       128 | Sybila       | 35107900 | ssingyard3j@dagondesign.com       | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       129 | Agata        | 25721778 | agorsse3k@blogspot.com            | CANDIDA YEAST RELIEF                                  | 2 344,00 € | Loraine Maykin      | 5770861
+       130 | Bronnie      |  9640081 | barnell3l@ed.gov                  | Primula Onopordon Stress Relief                       | 7 875,00 € | Dex Gelland         | 4741838
+       131 | Constantin   | 22906286 | cburstow3m@java.com               | Artificial Tears                                      | 7 905,00 € | Salim Klesl         | 5433417
+       132 | Murial       | 46278921 | meverix3n@csmonitor.com           | Doxepin Hydrochloride                                 |   425,00 € | Klemens Kastel      | 5043193
+       133 | Elsinore     | 38812345 | enorsister3o@intel.com            | HOLCUS LANATUS POLLEN                                 | 2 172,00 € | Shantee Redman      | 3641344
+       134 | Richard      | 15336841 | rboat3p@msu.edu                   | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+       135 | Olive        |  6349289 | olilywhite3q@360.cn               | Terazosin                                             | 9 026,00 € | Dex Gelland         | 4741838
+       136 | Christel     | 34972820 | cglyn3r@ovh.net                   | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+       137 | Simeon       | 44132071 | shamfleet3s@lulu.com              | Ampicillin                                            | 7 003,00 € | Giulio Gullivent    | 2193624
+       138 | Margalit     | 44422549 | mpiddick3t@google.nl              | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+       139 | Benedikta    | 19723745 | blehrahan3u@reuters.com           | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       140 | Penny        | 13832644 | pbillingham3v@blogspot.com        | Hydralazine Hydrochloride                             | 3 161,00 € | Deni Saltwell       |  846544
+       141 | Vladamir     | 35419454 | vgulberg3w@house.gov              | CANDIDA YEAST RELIEF                                  | 2 344,00 € | Loraine Maykin      | 5770861
+       142 | Nelie        | 50927356 | neastup3x@accuweather.com         | CANDIDA YEAST RELIEF                                  | 2 344,00 € | Loraine Maykin      | 5770861
+       143 | Lilllie      | 20890546 | lhaswall3y@ucoz.com               | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+       144 | Melodee      | 12045660 | mdevillier3z@intel.com            | Senna Laxative                                        | 7 064,00 € | Niki Kayne          | 2624919
+       145 | Jade         |  6262288 | jwanklin40@sitemeter.com          | Childrens Pepto                                       | 6 855,00 € | Rici Lundy          | 8988302
+       146 | Wainwright   | 25388831 | wvanin41@technorati.com           | Glyburide                                             | 6 012,00 € | Giulio Gullivent    | 2193624
+
+
+
